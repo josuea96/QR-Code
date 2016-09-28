@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83484FD71D9C03480001A4E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83484FD61D9C03480001A4E0 /* AppDelegate.swift */; };
+		83484FD91D9C03480001A4E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83484FD81D9C03480001A4E0 /* ViewController.swift */; };
+		83484FDC1D9C03480001A4E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83484FDA1D9C03480001A4E0 /* Main.storyboard */; };
+		83484FDF1D9C03480001A4E0 /* LecturaQR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83484FDD1D9C03480001A4E0 /* LecturaQR.xcdatamodeld */; };
+		83484FE11D9C03480001A4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83484FE01D9C03480001A4E0 /* Assets.xcassets */; };
+		83484FE41D9C03480001A4E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83484FE21D9C03480001A4E0 /* LaunchScreen.storyboard */; };
+		83484FEF1D9C03480001A4E0 /* LecturaQRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83484FEE1D9C03480001A4E0 /* LecturaQRTests.swift */; };
+		83484FFA1D9C03480001A4E0 /* LecturaQRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83484FF91D9C03480001A4E0 /* LecturaQRUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83484FEB1D9C03480001A4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83484FCB1D9C03470001A4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83484FD21D9C03470001A4E0;
+			remoteInfo = LecturaQR;
+		};
+		83484FF61D9C03480001A4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83484FCB1D9C03470001A4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83484FD21D9C03470001A4E0;
+			remoteInfo = LecturaQR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83484FD31D9C03470001A4E0 /* LecturaQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LecturaQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83484FD61D9C03480001A4E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83484FD81D9C03480001A4E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83484FDB1D9C03480001A4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83484FDE1D9C03480001A4E0 /* LecturaQR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LecturaQR.xcdatamodel; sourceTree = "<group>"; };
+		83484FE01D9C03480001A4E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83484FE31D9C03480001A4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83484FE51D9C03480001A4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83484FEA1D9C03480001A4E0 /* LecturaQRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LecturaQRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83484FEE1D9C03480001A4E0 /* LecturaQRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturaQRTests.swift; sourceTree = "<group>"; };
+		83484FF01D9C03480001A4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83484FF51D9C03480001A4E0 /* LecturaQRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LecturaQRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83484FF91D9C03480001A4E0 /* LecturaQRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturaQRUITests.swift; sourceTree = "<group>"; };
+		83484FFB1D9C03480001A4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83484FD01D9C03470001A4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83484FE71D9C03480001A4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83484FF21D9C03480001A4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83484FCA1D9C03470001A4E0 = {
+			isa = PBXGroup;
+			children = (
+				83484FD51D9C03470001A4E0 /* LecturaQR */,
+				83484FED1D9C03480001A4E0 /* LecturaQRTests */,
+				83484FF81D9C03480001A4E0 /* LecturaQRUITests */,
+				83484FD41D9C03470001A4E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83484FD41D9C03470001A4E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83484FD31D9C03470001A4E0 /* LecturaQR.app */,
+				83484FEA1D9C03480001A4E0 /* LecturaQRTests.xctest */,
+				83484FF51D9C03480001A4E0 /* LecturaQRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83484FD51D9C03470001A4E0 /* LecturaQR */ = {
+			isa = PBXGroup;
+			children = (
+				83484FD61D9C03480001A4E0 /* AppDelegate.swift */,
+				83484FD81D9C03480001A4E0 /* ViewController.swift */,
+				83484FDA1D9C03480001A4E0 /* Main.storyboard */,
+				83484FE01D9C03480001A4E0 /* Assets.xcassets */,
+				83484FE21D9C03480001A4E0 /* LaunchScreen.storyboard */,
+				83484FE51D9C03480001A4E0 /* Info.plist */,
+				83484FDD1D9C03480001A4E0 /* LecturaQR.xcdatamodeld */,
+			);
+			path = LecturaQR;
+			sourceTree = "<group>";
+		};
+		83484FED1D9C03480001A4E0 /* LecturaQRTests */ = {
+			isa = PBXGroup;
+			children = (
+				83484FEE1D9C03480001A4E0 /* LecturaQRTests.swift */,
+				83484FF01D9C03480001A4E0 /* Info.plist */,
+			);
+			path = LecturaQRTests;
+			sourceTree = "<group>";
+		};
+		83484FF81D9C03480001A4E0 /* LecturaQRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83484FF91D9C03480001A4E0 /* LecturaQRUITests.swift */,
+				83484FFB1D9C03480001A4E0 /* Info.plist */,
+			);
+			path = LecturaQRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83484FD21D9C03470001A4E0 /* LecturaQR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83484FFE1D9C03480001A4E0 /* Build configuration list for PBXNativeTarget "LecturaQR" */;
+			buildPhases = (
+				83484FCF1D9C03470001A4E0 /* Sources */,
+				83484FD01D9C03470001A4E0 /* Frameworks */,
+				83484FD11D9C03470001A4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LecturaQR;
+			productName = LecturaQR;
+			productReference = 83484FD31D9C03470001A4E0 /* LecturaQR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83484FE91D9C03480001A4E0 /* LecturaQRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834850011D9C03480001A4E0 /* Build configuration list for PBXNativeTarget "LecturaQRTests" */;
+			buildPhases = (
+				83484FE61D9C03480001A4E0 /* Sources */,
+				83484FE71D9C03480001A4E0 /* Frameworks */,
+				83484FE81D9C03480001A4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83484FEC1D9C03480001A4E0 /* PBXTargetDependency */,
+			);
+			name = LecturaQRTests;
+			productName = LecturaQRTests;
+			productReference = 83484FEA1D9C03480001A4E0 /* LecturaQRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83484FF41D9C03480001A4E0 /* LecturaQRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834850041D9C03480001A4E0 /* Build configuration list for PBXNativeTarget "LecturaQRUITests" */;
+			buildPhases = (
+				83484FF11D9C03480001A4E0 /* Sources */,
+				83484FF21D9C03480001A4E0 /* Frameworks */,
+				83484FF31D9C03480001A4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83484FF71D9C03480001A4E0 /* PBXTargetDependency */,
+			);
+			name = LecturaQRUITests;
+			productName = LecturaQRUITests;
+			productReference = 83484FF51D9C03480001A4E0 /* LecturaQRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83484FCB1D9C03470001A4E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "ITESM CAMPUS TAMPICO";
+				TargetAttributes = {
+					83484FD21D9C03470001A4E0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					83484FE91D9C03480001A4E0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 83484FD21D9C03470001A4E0;
+					};
+					83484FF41D9C03480001A4E0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 83484FD21D9C03470001A4E0;
+					};
+				};
+			};
+			buildConfigurationList = 83484FCE1D9C03470001A4E0 /* Build configuration list for PBXProject "LecturaQR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83484FCA1D9C03470001A4E0;
+			productRefGroup = 83484FD41D9C03470001A4E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83484FD21D9C03470001A4E0 /* LecturaQR */,
+				83484FE91D9C03480001A4E0 /* LecturaQRTests */,
+				83484FF41D9C03480001A4E0 /* LecturaQRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83484FD11D9C03470001A4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83484FE41D9C03480001A4E0 /* LaunchScreen.storyboard in Resources */,
+				83484FE11D9C03480001A4E0 /* Assets.xcassets in Resources */,
+				83484FDC1D9C03480001A4E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83484FE81D9C03480001A4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83484FF31D9C03480001A4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83484FCF1D9C03470001A4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83484FDF1D9C03480001A4E0 /* LecturaQR.xcdatamodeld in Sources */,
+				83484FD91D9C03480001A4E0 /* ViewController.swift in Sources */,
+				83484FD71D9C03480001A4E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83484FE61D9C03480001A4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83484FEF1D9C03480001A4E0 /* LecturaQRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83484FF11D9C03480001A4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83484FFA1D9C03480001A4E0 /* LecturaQRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83484FEC1D9C03480001A4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83484FD21D9C03470001A4E0 /* LecturaQR */;
+			targetProxy = 83484FEB1D9C03480001A4E0 /* PBXContainerItemProxy */;
+		};
+		83484FF71D9C03480001A4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83484FD21D9C03470001A4E0 /* LecturaQR */;
+			targetProxy = 83484FF61D9C03480001A4E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83484FDA1D9C03480001A4E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83484FDB1D9C03480001A4E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83484FE21D9C03480001A4E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83484FE31D9C03480001A4E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83484FFC1D9C03480001A4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83484FFD1D9C03480001A4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83484FFF1D9C03480001A4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LecturaQR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.LecturaQR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		834850001D9C03480001A4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LecturaQR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.LecturaQR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		834850021D9C03480001A4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LecturaQRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.LecturaQRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LecturaQR.app/LecturaQR";
+			};
+			name = Debug;
+		};
+		834850031D9C03480001A4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LecturaQRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.LecturaQRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LecturaQR.app/LecturaQR";
+			};
+			name = Release;
+		};
+		834850051D9C03480001A4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LecturaQRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.LecturaQRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LecturaQR;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		834850061D9C03480001A4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LecturaQRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.LecturaQRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LecturaQR;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83484FCE1D9C03470001A4E0 /* Build configuration list for PBXProject "LecturaQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83484FFC1D9C03480001A4E0 /* Debug */,
+				83484FFD1D9C03480001A4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83484FFE1D9C03480001A4E0 /* Build configuration list for PBXNativeTarget "LecturaQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83484FFF1D9C03480001A4E0 /* Debug */,
+				834850001D9C03480001A4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		834850011D9C03480001A4E0 /* Build configuration list for PBXNativeTarget "LecturaQRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834850021D9C03480001A4E0 /* Debug */,
+				834850031D9C03480001A4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		834850041D9C03480001A4E0 /* Build configuration list for PBXNativeTarget "LecturaQRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834850051D9C03480001A4E0 /* Debug */,
+				834850061D9C03480001A4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		83484FDD1D9C03480001A4E0 /* LecturaQR.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				83484FDE1D9C03480001A4E0 /* LecturaQR.xcdatamodel */,
+			);
+			currentVersion = 83484FDE1D9C03480001A4E0 /* LecturaQR.xcdatamodel */;
+			path = LecturaQR.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 83484FCB1D9C03470001A4E0 /* Project object */;
+}
